@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-crud-api-mongodb",
+  "version": "1.0.0",
+  "description": "Creating CRUD API using nodeJs with mongoDb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyomanyudiantara/nodejs-crud-api-mongodb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyomanyudiantara/nodejs-crud-api-mongodb/issues"
+  },
+  "homepage": "https://github.com/nyomanyudiantara/nodejs-crud-api-mongodb#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.1"
+  }
+}
